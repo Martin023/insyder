@@ -17,4 +17,16 @@ def get_quotes():
         return quotes_results
 
 
-def 
+def process_results(quotes_list):
+    processed_results=[]
+
+    for result in quotes_list:
+        quote=result.get('quote')
+        author = result['author']
+        link = result['permalink']
+
+        if quote:
+            quotes_object=Quote(quote,author,link)
+            processed_results.append(quotes_object)
+
+    return processed_results
