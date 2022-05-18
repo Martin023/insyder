@@ -1,6 +1,9 @@
 # insyder
 A blogging web application for writing and reading blogs
 
+## Screens![insyder blog](https://user-images.githubusercontent.com/36125591/169084468-b6b579a4-1673-4f16-ba14-8a1b1a3964ac.png)
+hot of the page
+
 #### Development Installation
 To get the code..
 
